@@ -1,24 +1,5 @@
-# frontend
+1º Instale as dependências necessárias: Executa esse comando no terminal: npm install
 
-## Project setup
-```
-npm install
-```
+2º Inicie a API criada em nestjs: "https://github.com/nathan-oliveira/teste_acacia_consultoria"
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3º Inicie a aplicação front-end: Executa esse comando no terminal: npm run serve
