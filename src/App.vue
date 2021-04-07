@@ -4,6 +4,7 @@
     <Main>
       <router-view />
     </Main>
+    <Footer />
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import api from "@/domain/services/api"
 import Main from "@/presentation/components/layouts/main/Main.vue"
 import Header from "@/presentation/components/layouts/header/Header.vue"
+import Footer from "@/presentation/components/layouts/footer/Footer.vue"
 
 export default {
   name: 'App',
   components: {
     Main,
-    Header
+    Header,
+    Footer
   },
   async beforeCreate() {
     if (this.$store.state.login) {
